@@ -1,10 +1,10 @@
 // classe users, representando nossa entidade
 
-class UsersModel {
+public class UsersModel {
 
-    int idUser;
+    private int idUser;
 
-    String descricao;
+    private String descricao;
 
     final static int IDADEMINIMA = 18;
 
