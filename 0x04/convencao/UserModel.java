@@ -1,4 +1,4 @@
-// classe users, representando nossa entidade
+// Classe UserModel, representando nossa entidade
 
 public class UsersModel {
 
@@ -6,22 +6,19 @@ public class UsersModel {
 
     private String descricao;
 
-    final static int IDADEMINIMA = 18;
+    private static int IDADE_MINIMA = 18;
 
-    // função que coleta todos os users
-
+    // Método que coleta todos os usuários
     public List<UserModel> fetchUsers() {
             return new ArrayList<>();
     }
 
-    // função que coleta todos os users
-
+    // Método que coleta todos os usuários
     public List<UserModel> allUsers() {
             return new ArrayList<>();
     }
 
-    // função que coleta todos os users
-
+    // Método que coleta todos os usuários
     public List<UserModel> getUsers() {
             return new ArrayList<>();
     }
